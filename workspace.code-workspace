@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../myprojects/Git-for-Web-Development-Project"
+		},
+		{
+			"path": "../myprojects/web-module-project-intro-css"
+		},
+		{
+			"path": "../myprojects/User-Interface-II"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web-module-project-intro-css"
+	}
+}
