@@ -218,3 +218,90 @@ text-align: left;
     margin-right: 5%;
     margin-top:2%;
 }
+   /* tablet  800px
+   mobile 500px */
+   @media (max-width: 800px){
+    .logo{
+        width: 8%;
+    }
+    #about{
+        width: 50%;
+        margin-right: 3%;
+        margin-top: 20%;
+    }
+    
+    .text div{
+        width: 80%;
+    }
+    .bottom p{
+        margin-right: 9.5%;
+    }
+    .left div.info{
+        line-height: 2;
+    }
+   }
+   
+   
+   
+   
+   @media (max-width: 500px){
+       nav{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 1%;
+
+       }
+       .liks{
+           width: 100%;
+       }
+       #about{
+           background-image: none;
+           background-color: lightgrey;
+           height: auto;
+           justify-content: center;
+           align-items: center;
+       }
+       #about div{
+           margin: 0;
+           width: 80%;
+       }
+       .container{
+           justify-content: center;
+       }
+       .cacti .tropical .succulants .text{
+           width: 80%;
+           height: 40vh;
+       }
+       .one{
+           order: 1;
+       }
+       .two[
+           order: 2;
+       ]
+       .three{
+           order: 3;
+       }
+       .four{
+           order: 4;
+       }
+       .five{
+           order: 5;
+       }
+       .six{
+           order:6;
+       }
+       footer{
+           justify-content: center;
+       }
+       footer h2{
+           width: 90%;
+           text-align:center;
+       }
+       footer h3{
+           text-align: center;
+       }
+       .bottom p{
+           margin-top: ;
+       }
+
+   }
